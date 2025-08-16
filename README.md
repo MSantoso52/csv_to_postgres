@@ -7,11 +7,16 @@ To follow along this learning we need to make it available on system, below requ
 pip install jupyter-notebook
 ```
 ```Jupyter Notebook
-pip install pandas
+pip install pandas, psycopg2
 ```
 # *Project Flow*
 Data ingestion from CSV to postgreSQL:
 1. Import necessary python library -- pandas, sqlachemy, psycopg2
-2. [E]xtract CSV to pandas data frame
-3. [T]transform pandas -- remove unnecessary string & convert object to numeric data type
-4. [L]oad pandas to postgreSQL
+   ```Jupyter Notebook
+   import pandas as pd
+   from sqlalchemy import create_engine
+   import psycopg2 
+   ```
+3. [E]xtract CSV to pandas data frame
+4. [T]transform pandas -- remove unnecessary string & convert object to numeric data type
+5. [L]oad pandas to postgreSQL
