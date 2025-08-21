@@ -46,3 +46,4 @@ Data ingestion from CSV to postgreSQL:
     df.to_sql(table_name, engine, if_exists='append', index=False)
    ...
    ```
+   ![A screenshot of a project interface](csv_postgres.png)
