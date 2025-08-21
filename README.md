@@ -1,8 +1,9 @@
 # csv_to_postgres
+![A screenshot of a project interface](csv_postgres.jpg)
 # *Overview*
 Project repo to demonstrate Data Ingestion using Python, CSV file as Data Source and PostgreSQL as database. Data ingestion using Jupyter Notebook with pandas library to process it. Using small data CSV file because the purpose of this project to demonstrate Data Ingestion in simplest way that actually will work also with Big Data.
 # *Prerequisites*
-To follow along this learning we need to make it available on system, below requirements:
+To follow along this project we need to make it available on system, below requirements:
 ```bash
 pip install jupyter-notebook
 ```
